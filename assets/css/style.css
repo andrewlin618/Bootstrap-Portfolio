@@ -1,0 +1,54 @@
+body{
+    background-color: gray;
+}
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+#spacer {
+    height: 10vh;
+}
+
+footer {
+    height: 7vh;
+    color:white;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+.box{
+    width: 90%;
+    margin: auto;
+}
+
+.profile-image {
+    max-width: 150px;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+.portfolio-text {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top:-25%;
+    color: white;
+    background-color:black;
+    line-height:8vh;
+    font-size:5vh;
+}
+.borderText{
+    border-bottom: 2px solid gray;
+}
+.marginButton{
+    margin-bottom: 5%;
+}
